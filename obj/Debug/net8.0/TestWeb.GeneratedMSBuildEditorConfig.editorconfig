@@ -17,215 +17,215 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestWeb
 build_property.RootNamespace = TestWeb
-build_property.ProjectDir = C:\Users\tam tran\source\repos\TestWeb\
+build_property.ProjectDir = D:\BTLWEB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tam tran\source\repos\TestWeb
+build_property.MSBuildProjectDirectory = D:\BTLWEB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Account/AccountLayout.cshtml]
+[D:/BTLWEB/Views/Account/AccountLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2NvdW50TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Account/ConfirmCode.cshtml]
+[D:/BTLWEB/Views/Account/ConfirmCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Account/EditProfile.cshtml]
+[D:/BTLWEB/Views/Account/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Account/Login.cshtml]
+[D:/BTLWEB/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Account/Register.cshtml]
+[D:/BTLWEB/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Account/ResetPassword.cshtml]
+[D:/BTLWEB/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/AddBook.cshtml]
+[D:/BTLWEB/Views/Admin/AddBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/AddCategory.cshtml]
+[D:/BTLWEB/Views/Admin/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/AdminLayout.cshtml]
+[D:/BTLWEB/Views/Admin/AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/AllBooks.cshtml]
+[D:/BTLWEB/Views/Admin/AllBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsQm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/Categories.cshtml]
+[D:/BTLWEB/Views/Admin/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/ConfirmDelete.cshtml]
+[D:/BTLWEB/Views/Admin/ConfirmDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybURlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/Dashboard.cshtml]
+[D:/BTLWEB/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/EditBook.cshtml]
+[D:/BTLWEB/Views/Admin/EditBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/EditCategory.cshtml]
+[D:/BTLWEB/Views/Admin/EditCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/Index.cshtml]
+[D:/BTLWEB/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/SearchBooks.cshtml]
+[D:/BTLWEB/Views/Admin/SearchBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhcmNoQm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Admin/SearchCategories.cshtml]
+[D:/BTLWEB/Views/Admin/SearchCategories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhcmNoQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Cart/CartLayout.cshtml]
+[D:/BTLWEB/Views/Cart/CartLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Cart/Index.cshtml]
+[D:/BTLWEB/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Home/Index.cshtml]
+[D:/BTLWEB/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Home/Privacy.cshtml]
+[D:/BTLWEB/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/AdminViewOrders.cshtml]
+[D:/BTLWEB/Views/Order/AdminViewOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRtaW5WaWV3T3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/Checkout.cshtml]
+[D:/BTLWEB/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/Index.cshtml]
+[D:/BTLWEB/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/OrderConfirmation.cshtml]
+[D:/BTLWEB/Views/Order/OrderConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/OrderDetails.cshtml]
+[D:/BTLWEB/Views/Order/OrderDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/OrderLayout.cshtml]
+[D:/BTLWEB/Views/Order/OrderLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Order/TrackOrder.cshtml]
+[D:/BTLWEB/Views/Order/TrackOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcVHJhY2tPcmRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/BookDetail.cshtml]
+[D:/BTLWEB/Views/Product/BookDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxCb29rRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/Booklist.cshtml]
+[D:/BTLWEB/Views/Product/Booklist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxCb29rbGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/CategoryList.cshtml]
+[D:/BTLWEB/Views/Product/CategoryList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDYXRlZ29yeUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/ProductLayout.cshtml]
+[D:/BTLWEB/Views/Product/ProductLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/SanPhamTheoLoai.cshtml]
+[D:/BTLWEB/Views/Product/SanPhamTheoLoai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/Search.cshtml]
+[D:/BTLWEB/Views/Product/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Product/_ProductList.cshtml]
+[D:/BTLWEB/Views/Product/_ProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfUHJvZHVjdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Revenue/DailyRevenue.cshtml]
+[D:/BTLWEB/Views/Revenue/DailyRevenue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZVxEYWlseVJldmVudWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Revenue/RevenueCharts.cshtml]
+[D:/BTLWEB/Views/Revenue/RevenueCharts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2ZW51ZVxSZXZlbnVlQ2hhcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Categories.cshtml]
+[D:/BTLWEB/Views/Shared/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENhdGVnb3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Category.cshtml]
+[D:/BTLWEB/Views/Shared/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Components/CategoryMenu/Default.cshtml]
+[D:/BTLWEB/Views/Shared/Components/CategoryMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Error.cshtml]
+[D:/BTLWEB/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/featuredspad.cshtml]
+[D:/BTLWEB/Views/Shared/featuredspad.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGZlYXR1cmVkc3BhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Footer.cshtml]
+[D:/BTLWEB/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Header.cshtml]
+[D:/BTLWEB/Views/Shared/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Hero.cshtml]
+[D:/BTLWEB/Views/Shared/Hero.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/Product.cshtml]
+[D:/BTLWEB/Views/Shared/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/BTLWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/_ViewImports.cshtml]
+[D:/BTLWEB/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/_ViewStart.cshtml]
+[D:/BTLWEB/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tam tran/source/repos/TestWeb/Views/Shared/_Layout.cshtml]
+[D:/BTLWEB/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0wp51snjv4

@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using TestWeb.Data;
 using TestWeb.Models;
-using System.Globalization;
 using TestWeb.Models.Authentication;
 
 namespace TestWeb.Controllers
@@ -151,13 +150,12 @@ namespace TestWeb.Controllers
 
             if (cart != null)
             {
-                cart.RemoveItem(bookId);
+                cart.RemoveItem(bookId); // Kiểm tra chắc chắn phương thức này có xóa đúng sản phẩm với bookId
                 await _context.SaveChangesAsync();
             }
 
             return RedirectToAction("Index");
         }
-
         [HttpGet]
         public async Task<IActionResult> GetTotalAmount()
         {
