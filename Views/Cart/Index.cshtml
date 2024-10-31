@@ -48,7 +48,7 @@ else
 
 }
 
-@section Scripts {
+@* @section Scripts {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         function updateQuantity(bookId, action) {
@@ -138,7 +138,67 @@ else
                 });
             }
         }
+        function confirmRemove(productName, bookId) {
+            if (confirm("Bạn có chắc muốn xóa sản phẩm '" + productName + "' khỏi giỏ hàng không?")) {
+                // Gửi yêu cầu xóa đến controller
+                window.location.href = '/Cart/RemoveFromCart?bookId=' + bookId;
+            }
+        }
     </script>
 
+} *@
+@* <script>
+    function confirmRemove(productName, bookId) {
+        if (confirm("Bạn có chắc muốn xóa sản phẩm '" + productName + "' khỏi giỏ hàng không?")) {
+            // Gửi yêu cầu xóa đến controller
+            window.location.href = '/Cart/RemoveFromCart?bookId=' + bookId;
+        }
+    }
+</script> *@
+
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function updateQuantity(bookId, action) {
+            const url = action === 'increase' ? '@Url.Action("IncreaseQuantity", "Cart")' : '@Url.Action("DecreaseQuantity", "Cart")';
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: { bookId: bookId },
+                success: function (response) {
+                    if (response.success) {
+                        $('#quantity-' + bookId).val(response.quantity);
+                        const price = $('#price-' + bookId).data('price');
+                        $('#total-' + bookId).text((response.quantity * price).toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+
+                        // Gọi hàm để cập nhật tổng Subtotal và Total
+                        updateCartTotal();
+                    } else if (response.redirectUrl) {
+                        window.location.href = response.redirectUrl; // Điều hướng nếu cần
+                    }
+                },
+                error: function () {
+                    alert('Không thể cập nhật số lượng. Vui lòng thử lại.');
+                }
+            });
+        }
+
+        function updateCartTotal() {
+            $.ajax({
+                url: '@Url.Action("GetTotalAmount", "Cart")',
+                method: 'GET',
+                success: function (response) {
+                    $('#subtotal').text(response.totalAmount);
+                    $('#total').text(response.totalAmount);
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra khi cập nhật tổng giá.");
+                }
+            });
+        }
+    </script>
 }
+
 

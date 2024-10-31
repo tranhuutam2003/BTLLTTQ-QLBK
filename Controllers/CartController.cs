@@ -165,9 +165,10 @@ namespace TestWeb.Controllers
                 .ThenInclude(i => i.Book)
                 .FirstOrDefaultAsync(c => c.PhoneNumber == phoneNumber);
 
-            var totalAmount = cart?.Items.Sum(i => i.Quantity * i.Book.Price) ?? 0;
-            // Sửa lại dòng này để chỉ sử dụng một tham số
+            var totalAmount = cart?.TotalAmount ?? 0;
             return Json(new { totalAmount = totalAmount.ToString("C", new CultureInfo("vi-VN")) });
         }
+
+
     }
 }

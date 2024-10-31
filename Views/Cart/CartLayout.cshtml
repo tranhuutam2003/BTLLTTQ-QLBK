@@ -74,8 +74,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="shoping__cart__table">
-                        
-                            @RenderBody()
+
+                        @RenderBody()
                         @RenderSection("Scripts", required: false)
                     </div>
                 </div>
@@ -97,6 +97,7 @@
                             <li>Subtotal <span id="subtotal">@Model.TotalAmount.ToString("C", new CultureInfo("vi-VN"))</span></li>
                             <li>Total <span id="total">@Model.TotalAmount.ToString("C", new CultureInfo("vi-VN"))</span></li>
                         </ul>
+
                         <a asp-controller="Order" asp-action="Checkout" class="primary-btn">PROCEED TO CHECKOUT</a>
                     </div>
                 </div>
@@ -118,6 +119,64 @@
     <script src="~/js/mixitup.min.js"></script>
     <script src="~/js/owl.carousel.min.js"></script>
     <script src="~/js/main.js"></script>
+    <!-- Script to handle quantity change and update total amount -->
+    <script type="text/javascript">
+        function updateTotalAmount() {
+            $.ajax({
+                url: '@Url.Action("GetTotalAmount", "Cart")',
+                method: 'GET',
+                success: function (response) {
+                    // Cập nhật lại Subtotal và Total với dữ liệu từ server
+                    $('#subtotal').text(response.totalAmount);
+                    $('#total').text(response.totalAmount);
+                },
+                error: function () {
+                    alert("Có lỗi xảy ra khi cập nhật tổng giá.");
+                }
+            });
+        }
+
+        // Gọi updateTotalAmount khi thay đổi số lượng sản phẩm
+        $('.quantity-change').on('click', function () {
+            updateTotalAmount();
+        });
+    </script>
+    @section Scripts {
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            function updateQuantity(bookId, action) {
+                const url = action === 'increase' ? '@Url.Action("IncreaseQuantity", "Cart")' : '@Url.Action("DecreaseQuantity", "Cart")';
+
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: { bookId: bookId },
+                    success: function (response) {
+                        if (response.success) {
+                            $('#quantity-' + bookId).val(response.quantity);
+                            const price = $('#price-' + bookId).data('price');
+                            $('#total-' + bookId).text((response.quantity * price).toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }));
+
+                            // Cập nhật Subtotal và Total từ phản hồi
+                            updateCartTotal(response.totalAmount);
+                        } else if (response.redirectUrl) {
+                            window.location.href = response.redirectUrl; // Điều hướng nếu cần
+                        }
+                    },
+                    error: function () {
+                        alert('Không thể cập nhật số lượng. Vui lòng thử lại.');
+                    }
+                });
+            }
+
+            function updateCartTotal(totalAmount) {
+                $('#subtotal').text(totalAmount);
+                $('#total').text(totalAmount);
+            }
+        </script>
+    }
+
+
 
 </body>
 
